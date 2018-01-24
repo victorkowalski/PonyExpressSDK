@@ -1,0 +1,14 @@
+{
+  "name": "my/pony",
+  "type": "sdk",
+  "description": "Pony Express Integration SDK",
+  "require": {
+    "php": ">=5.5",
+    "guzzlehttp/guzzle": "~5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "PE\\": "src"
+    }
+  }
+}
